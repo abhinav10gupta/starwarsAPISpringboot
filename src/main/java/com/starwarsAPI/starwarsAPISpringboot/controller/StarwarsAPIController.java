@@ -11,7 +11,7 @@ public class StarwarsAPIController {
         return "Testing configuration.";
     }
     @GetMapping("/information")
-    public String error(){
+    public String information(){
         return "Testing API configurations.";
     }
 }
